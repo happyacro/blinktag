@@ -1,0 +1,50 @@
+.blinkTag {
+	-webkit-animation-name: blinkTag; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: blinkTag;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.blinkTagSlow {
+	-webkit-animation-name: blinkTag; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: blinkTag;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.blinkTagFast {
+	-webkit-animation-name: blinkTag; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: blinkTag;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.blinkTagObnoxiouslyFast {
+	-webkit-animation-name: blinkTag; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: blinkTag;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blinkTag {
+    0%   { visibility:hidden; }
+    50% { visibility:hidden; }
+    51% { visibility:visible; }
+    100%  { visibility:visible; }
+}
+
+@keyframes blinkTag {
+    0%   { visibility:hidden; }
+    50% { visibility:hidden; }
+    51% { visibility:visible; }
+    100%  { visibility:visible; }
+}
