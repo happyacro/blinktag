@@ -5,7 +5,7 @@
 # blinktag.css
 I miss the &lt;blink&gt; tag. Don't you?
 
-Documentation is dumb. Just go look at the [demo](http://www.happyacro.com/blinktag.html), or clone this repo and check out blinktag.html.
+Documentation is dumb. Just go look at the [demo](http://www.happyacro.com/blinktag.html), or clone this repo and check out <a href="/blinktag.html">blinktag.html</a>.
 
 You're welcome.
 
